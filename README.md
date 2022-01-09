@@ -1,6 +1,6 @@
 # Vc-Lab2
 
-To REMOVE dev branch
+To Remove dev branch :-
 <br/>
 Locally:
 git branch -d dev
@@ -9,7 +9,21 @@ Remotely:
 git push origin --delete dev
 
 
-<br/><br/><br/>
+<br/><br/>
+
+To List Tags :-
+<br/>
+git tag 
+
+<br/><br/>
+
+To Delete Tag :-
+<br/>
+Locally:
+git tag -d v1.7
+<br/>
+Remotely:
+git push --delete origin v1.7
 
 
 
